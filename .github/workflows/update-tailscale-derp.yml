@@ -1,0 +1,27 @@
+name: Update Tailscale DERP Rules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 20 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate rule provider
+        run: python3 scripts/generate_tailscale_derp_rules.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rules/tailscale-derp.yaml
+          git diff --cached --quiet || git commit -m "Update Tailscale DERP rules"
+          git push
