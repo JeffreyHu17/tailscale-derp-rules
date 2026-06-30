@@ -15,7 +15,7 @@ rule-providers:
   tailscale-derp:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/<USER>/<REPO>/main/rules/tailscale-derp.yaml"
+    url: "https://raw.githubusercontent.com/JeffreyHu17/tailscale-derp-rules/main/rules/tailscale-derp.yaml"
     path: ./ruleset/tailscale-derp.yaml
     interval: 86400
 
