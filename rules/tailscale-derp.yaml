@@ -1,7 +1,7 @@
 # Tailscale DERP DIRECT rules for Clash/Mihomo rule-provider
 # Source: https://login.tailscale.com/derpmap/default
-# Updated: 2026-11-01T23:32:58+00:00
-# Count: 264
+# Updated: 2026-11-03T02:14:58+00:00
+# Count: 267
 payload:
   - 'DOMAIN,derp1f.tailscale.com,DIRECT'
   - 'IP-CIDR,199.38.181.104/32,DIRECT,no-resolve'
@@ -198,6 +198,9 @@ payload:
   - 'DOMAIN,derp28d.tailscale.com,DIRECT'
   - 'IP-CIDR,157.180.28.32/32,DIRECT,no-resolve'
   - 'IP-CIDR6,2a01:4f9:c012:2e5b::1/128,DIRECT,no-resolve'
+  - 'DOMAIN,derp28e.tailscale.com,DIRECT'
+  - 'IP-CIDR,46.62.141.44/32,DIRECT,no-resolve'
+  - 'IP-CIDR6,2a01:4f9:c014:f18e::1/128,DIRECT,no-resolve'
   - 'DOMAIN,derp3e.tailscale.com,DIRECT'
   - 'IP-CIDR,172.237.72.43/32,DIRECT,no-resolve'
   - 'IP-CIDR6,2600:3c15::2000:6cff:fee4:d799/128,DIRECT,no-resolve'
