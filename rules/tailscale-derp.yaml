@@ -1,6 +1,6 @@
 # Tailscale DERP DIRECT rules for Clash/Mihomo rule-provider
 # Source: https://login.tailscale.com/derpmap/default
-# Updated: 2026-11-12T01:53:07+00:00
+# Updated: 2026-11-13T01:01:49+00:00
 # Count: 285
 payload:
   - 'DOMAIN,derp1f.tailscale.com,DIRECT'
