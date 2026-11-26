@@ -1,7 +1,7 @@
 # Tailscale DERP DIRECT rules for Clash/Mihomo rule-provider
 # Source: https://login.tailscale.com/derpmap/default
-# Updated: 2026-11-25T03:30:44+00:00
-# Count: 285
+# Updated: 2026-11-26T02:47:26+00:00
+# Count: 279
 payload:
   - 'DOMAIN,derp1f.tailscale.com,DIRECT'
   - 'IP-CIDR,199.38.181.104/32,DIRECT,no-resolve'
@@ -66,6 +66,9 @@ payload:
   - 'DOMAIN,derp14d.tailscale.com,DIRECT'
   - 'IP-CIDR,176.58.93.154/32,DIRECT,no-resolve'
   - 'IP-CIDR6,2a00:dd80:3c::3d5/128,DIRECT,no-resolve'
+  - 'DOMAIN,derp14e.tailscale.com,DIRECT'
+  - 'IP-CIDR,176.58.93.27/32,DIRECT,no-resolve'
+  - 'IP-CIDR6,2a00:dd80:3c::343/128,DIRECT,no-resolve'
   - 'DOMAIN,derp15b.tailscale.com,DIRECT'
   - 'IP-CIDR,102.67.165.90/32,DIRECT,no-resolve'
   - 'IP-CIDR6,2c0f:edb0:0:10::963/128,DIRECT,no-resolve'
@@ -156,15 +159,6 @@ payload:
   - 'DOMAIN,derp23d.tailscale.com,DIRECT'
   - 'IP-CIDR,185.34.3.75/32,DIRECT,no-resolve'
   - 'IP-CIDR6,2a00:dd80:3f:100::97e/128,DIRECT,no-resolve'
-  - 'DOMAIN,derp24b.tailscale.com,DIRECT'
-  - 'IP-CIDR,208.83.234.151/32,DIRECT,no-resolve'
-  - 'IP-CIDR6,2001:19f0:c000:c586:5400:04ff:fe26:2ba6/128,DIRECT,no-resolve'
-  - 'DOMAIN,derp24c.tailscale.com,DIRECT'
-  - 'IP-CIDR,208.83.233.233/32,DIRECT,no-resolve'
-  - 'IP-CIDR6,2001:19f0:c000:c591:5400:04ff:fe26:2c5f/128,DIRECT,no-resolve'
-  - 'DOMAIN,derp24d.tailscale.com,DIRECT'
-  - 'IP-CIDR,208.72.155.133/32,DIRECT,no-resolve'
-  - 'IP-CIDR6,2001:19f0:c000:c564:5400:04ff:fe26:2ba8/128,DIRECT,no-resolve'
   - 'DOMAIN,derp25b.tailscale.com,DIRECT'
   - 'IP-CIDR,102.67.167.245/32,DIRECT,no-resolve'
   - 'IP-CIDR6,2c0f:edb0:2000:1::2e9/128,DIRECT,no-resolve'
